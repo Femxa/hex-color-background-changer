@@ -13,8 +13,8 @@ En este enlace tienes [una demo de cómo debe funcionar](https://femxa.github.io
 ## Estructura
 
 - `index.html`: contiene el botón y el cuadrado que cambia de color.
-- `css/main.css`: estilos con CSS puro.
-- `js/app.js`: lógica para generar y aplicar el color hexadecimal. **Este es el único fichero que has de modificar.**
+- `style.css`: estilos con CSS puro.
+- `script.js`: lógica para generar y aplicar el color hexadecimal. **Este es el único fichero que has de modificar.**
 
 ## Pasos a seguir
 
