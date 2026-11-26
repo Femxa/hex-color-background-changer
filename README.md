@@ -2,10 +2,11 @@
 
 Este ejercicio consiste en generar un color hexadecimal aleatorio al pulsar un botón y aplicarlo a un cuadrado concreto del DOM, en lugar de cambiar el fondo completo de la página.
 
+En este enlace tienes [una demo de cómo debe funcionar](https://femxa.github.io/hex-color-background-changer/)
+
 ## Qué incluye esta versión
 
 - HTML sencillo y limpio.
-- CSS sin dependencias externas ni Bootstrap.
 - Un elemento con ID llamado `color-box` que cambia de color al hacer clic.
 - Un texto con el valor hexadecimal actual.
 
@@ -13,12 +14,12 @@ Este ejercicio consiste en generar un color hexadecimal aleatorio al pulsar un b
 
 - `index.html`: contiene el botón y el cuadrado que cambia de color.
 - `css/main.css`: estilos con CSS puro.
-- `js/app.js`: lógica para generar y aplicar el color hexadecimal.
+- `js/app.js`: lógica para generar y aplicar el color hexadecimal. **Este es el único fichero que has de modificar.**
 
 ## Pasos a seguir
 
 1. Abre `index.html` y observa cómo está estructurado el cuadrado y el botón.
-2. Busca los elementos del DOM con `querySelector`.
+2. Identifica los nodos de `button`, `colorBox` y `hexValue`. Ya están guardados en constantes con `querySelector`. Usa esas constantes en los pasos siguientes.
 3. Comprueba que el evento `click` funciona con una prueba simple en la consola.
 4. Genera un color hexadecimal aleatorio con una función.
 5. Actualiza el `backgroundColor` del cuadrado y el texto del valor hexadecimal.
