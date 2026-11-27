@@ -32,6 +32,22 @@ En este enlace tienes [una demo de cómo debe funcionar](https://femxa.github.io
 3. Separa la lógica en funciones pequeñas y claras.
 4. Mantén el ejercicio simple y legible.
 
+## Cómo escuchar el clic de un botón
+
+Selecciona el botón con `querySelector`. Define lo que quieres hacer en una función y pásala a `addEventListener` para que el navegador la ejecute al hacer clic.
+
+```js
+const boton = document.querySelector('#mi-boton');
+
+function alHacerClic() {
+  console.log('Has pulsado el botón');
+}
+
+boton.addEventListener('click', alHacerClic);
+```
+
+El selector `#mi-boton` corresponde a un botón con `id="mi-boton"`. Pasa el nombre de la función sin paréntesis para que se ejecute al hacer clic.
+
 ## Función para obtener un color hexadecimal aleatorio
 
 ```js
